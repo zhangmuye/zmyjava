@@ -15,5 +15,11 @@ public interface Student {
      * @return 学生姓名
      */
     String getAuthorName();
+    /**
+    *  获得父类的对象
+    * @return 父类对象
+    */
+    void getFatherObject();
+
 
 }
